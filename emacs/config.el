@@ -16,6 +16,13 @@
 (unless package-archive-contents
  (package-refresh-contents))
 
+;; Add Ruler, where after 80 chars the text is red
+(require 'whitespace)
+(setq whitespace-line-column 80) ;; limit line length
+(setq whitespace-style '(face lines-tail))
+
+(global-whitespace-mode 1)
+
 ;; Use-package to simplify the config file
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)
