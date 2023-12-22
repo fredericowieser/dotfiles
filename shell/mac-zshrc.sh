@@ -30,7 +30,8 @@ alias .....='cd ../../../..'
 
 # Git Aliases
 alias g='git status'
-alias gp='git fetch && git pull'
+alias gfp='git fetch && git pull'
+alias gp='git push'
 alias ga='git add'
 alias gc='git commit -m'
 alias gco='git checkout'
