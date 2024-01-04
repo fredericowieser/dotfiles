@@ -16,6 +16,7 @@ export PATH=$PATH:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/
 
 # Standard Shell Tool Aliases
 alias ll='ls -AlhF --color=always'
+alias c='clear'
 
 # To see if a command is aliased, a file, or a built-in command
 alias checkcommand="type -t"
@@ -33,6 +34,7 @@ alias g='git status'
 alias gfp='git fetch && git pull'
 alias gp='git push'
 alias ga='git add'
+alias gd='git diff'
 alias gc='git commit -m'
 alias gco='git checkout'
 alias gl='git lg'
